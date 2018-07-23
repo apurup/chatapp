@@ -19,6 +19,9 @@
         function showHome() {
             window.location.href = "index.html";
         }
+        function openFiles() {
+            document.getElementById("fileLoader").click();
+        }
     </script>
 </head>
 <body>
@@ -49,13 +52,14 @@
         <div class="row" style="background: #f9f2ec;">
             <div style="position: relative;margin: auto">
                 <img  class="rounded " width="250" height="250" src="images/20180504_115440.png" style="margin: auto;" >
-                <i class="material-icons img-overlay img-edit">local_see</i>
+                <i class="material-icons img-overlay img-edit" onclick="openFiles()" >local_see</i>
             </div>
 
         </div>
 
         <div class="row justify-content-center mt-4" style="background: #f9f2ec"><h4>Apurup Reddy</h4></div>
         <div class="row justify-content-center mt-4" style="background: #f9f2ec"><h4>942560485208</h4></div>
+        <input type="file" id="fileLoader" name="files" title="Load File" style="visibility: hidden;"/>
 
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
