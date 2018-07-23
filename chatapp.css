@@ -1,0 +1,62 @@
+.chatLog{
+    background: #f9f2ec;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.image{
+    display: block;
+    max-width:14%;
+    height: auto;
+}
+.imageChatHeader{
+    display: block;
+    max-width:6%;
+    height: auto;
+}
+.imageProfile{
+    display: block;
+    max-width:10%;
+    max-height: 10%;
+
+}
+
+.img-responsive{
+    display: block;
+    max-width:6%;
+    height: auto;
+    margin: auto;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+
+}
+li:hover{
+    background: white;
+}
+
+.chatMessage{
+    background: #f0e9e3;
+    max-width: 40vh;
+}
+
+.img-edit{
+    background: #5cb85c;
+    color: white;
+    border-radius: 100px;
+    padding: 8px;
+    font-size: 2em;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
